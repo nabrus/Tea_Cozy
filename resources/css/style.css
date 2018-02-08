@@ -13,6 +13,17 @@ body {
   opacity: 0.9;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2, h4 {
+  text-align: center;
+  padding: 10px;
+}
+
 /* HEADER */
 
 header {
@@ -22,8 +33,9 @@ header {
   height: 69px;
   width: 100%;
   position: fixed;
+  z-index: 1;
   border-bottom: 1px solid seashell;
-
+  background-color: inherit;
 }
 
 header img {
@@ -37,4 +49,37 @@ nav span {
 
 a {
   color: inherit;
+}
+
+
+
+/* SECTIONS */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+}
+
+
+#tea {
+  width: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tea.headings {
+  height: 200px;
+}
+
+.headings {
+  background-color: black;
+  width: inherit;
+
 }
