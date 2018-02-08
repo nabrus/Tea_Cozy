@@ -14,9 +14,11 @@ body {
 }
 
 main {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
+  position: relative;
+  top: 70px;
 }
 
 h2, h4 {
@@ -56,30 +58,40 @@ a {
 /* SECTIONS */
 
 #mission {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../../resources/images/img-mission-background.jpg);
-  position: relative;
-  top: 70px;
+  /*position: relative;
+  top: 70px;*/
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 
 #tea {
-  width: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 1000px;
+  border: 1px white solid; /* remove */
+  margin: 0 auto;
+
 }
 
-#tea.headings {
-  height: 200px;
+ .teas.headings {
+  height: 120px;
+  padding-top: 50px;
+  border: 1px white solid; /* remove */
 }
 
 .headings {
   background-color: black;
   width: inherit;
+}
 
+.menu {
+
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
 }
