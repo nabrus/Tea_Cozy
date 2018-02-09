@@ -1,4 +1,4 @@
-/* GLOBAL SETTINGS */
+/* General Settings */
 
 * {
   margin: 0;
@@ -21,12 +21,7 @@ main {
   top: 70px;
 }
 
-h2, h4 {
-  text-align: center;
-  padding: 10px;
-}
-
-/* HEADER */
+/* Header */
 
 header {
   display: flex;
@@ -53,27 +48,45 @@ a {
   color: inherit;
 }
 
+/* General Heading Settings */
 
+h2, h3, h4 {
+  text-align: center;
+  padding: 10px;
+}
 
-/* SECTIONS */
+.headings {
+  background-color: black;
+  width: inherit;
+}
+
+/* Section One - Mission Statement */
 
 #mission {
   background-image: url(../../resources/images/img-mission-background.jpg);
-  /*position: relative;
-  top: 70px;*/
   height: 700px;
   width: 1200px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  /*position: relative;
+  top: 70px;*/
+
+
 }
 
+.backdrop {
+
+
+
+}
+
+/* Section Two - Menu */
 
 #tea {
   width: 1000px;
   border: 1px white solid; /* remove */
   margin: 0 auto;
-
 }
 
  .teas.headings {
@@ -82,16 +95,43 @@ a {
   border: 1px white solid; /* remove */
 }
 
-.headings {
-  background-color: black;
-  width: inherit;
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.menu {
-
+.item {
+  height: 250px;
+  width: 330px;
 }
 
 .item img {
   height: 200px;
+  width: 300px;
+  margin-left: 15px;
+}
+
+/* Section Three - Locations */
+
+#locations {
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  background-color: black;
+  height: 300px;
   width: 300px;
 }
