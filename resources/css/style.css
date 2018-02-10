@@ -66,11 +66,9 @@ h2, h4, h5 {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  /*position: relative;
-  top: 70px;*/
 }
 
-/* Section Two - Menu */
+/* Section Two - Tea of the Month Menu */
 
 #tea {
   width: 1000px;
@@ -78,7 +76,7 @@ h2, h4, h5 {
   margin: 0 auto;
 }
 
- .teas.headings {
+.teas.headings {
   height: 120px;
   padding-top: 50px;
 }
@@ -89,16 +87,13 @@ h2, h4, h5 {
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
-  margin-bottom: 75px;
 }
 
 .item {
-  height: 250px;
   width: 330px;
 }
 
 .item img {
-  height: 200px;
   width: 300px;
   margin-left: 15px;
 }
@@ -128,7 +123,7 @@ h2, h4, h5 {
   width: 300px;
   margin: 0 20px;
   opacity: 1;
-  text-align: center; /* redundent rule w/ headings */
+  text-align: center;
 }
 
 .address h3 {
@@ -141,19 +136,19 @@ h2, h4, h5 {
 
 /* Contact Section */
 
-.contact-info {
+.contact {
   height: 200px;
 }
 
-.info {
+.contact h2 {
+  margin-bottom: 15px;
+}
+
+.contact h5 {
   padding: 20px;
 }
 
-.info h5 {
-  padding-bottom: 20px;
-}
-
-/* Footer */
+/* Copyright Footer */
 
 footer h5 {
   margin: 40px 20px;
