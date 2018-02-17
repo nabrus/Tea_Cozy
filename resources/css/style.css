@@ -150,7 +150,13 @@ h2, h4, h5 {
 
 /* Copyright Footer */
 
+footer {
+  width: 400px;
+  position: relative;
+  top: 75px;
+}
+
 footer h5 {
-  margin: 40px 20px;
+  margin: 20px;
   text-align: left;
 }
